@@ -1,0 +1,15 @@
+@BeforeGetUrl
+Feature: Doing BrowserTesting
+
+  Background:                      # ChromeBrowserTest.feature:6
+    Given I start the automation   # Login.iStartTheAutomation()
+    Then I executing the hookclass # Login.iExecutingTheHookclass()
+    Then I wait for 20 seconds     # GeneralStep.iWaitForMinites(int)
+      java.lang.NullPointerException
+      	at com.StepDefination.GeneralStep.iWaitForMinites(GeneralStep.java:27)
+      	at ✽.Then I wait for 20 seconds(ChromeBrowserTest.feature:9)
+
+
+  @cleartrip
+  Scenario: cleartrip                             # ChromeBrowserTest.feature:13
+    Given I open the "https://www.cleartrip.com/" # BrowserStep.openBrowser(String)

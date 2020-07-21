@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.326755">
+<testcase classname="Doing BrowserTesting" name="cleartrip" time="0.326755">
+<failure message="java.lang.NullPointerException&#10;&#9;at com.StepDefination.GeneralStep.iWaitForMinites(GeneralStep.java:27)&#10;&#9;at ✽.Then I wait for 20 seconds(ChromeBrowserTest.feature:9)&#10;"><![CDATA[Given I start the automation................................................passed
+Then I executing the hookclass..............................................passed
+Then I wait for 20 seconds..................................................failed
+Given I open the "https://www.cleartrip.com/"...............................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.StepDefination.GeneralStep.iWaitForMinites(GeneralStep.java:27)
+	at ✽.Then I wait for 20 seconds(ChromeBrowserTest.feature:9)
+]]></failure>
+</testcase>
+</testsuite>

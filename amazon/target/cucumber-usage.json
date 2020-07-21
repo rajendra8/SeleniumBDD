@@ -1,0 +1,38 @@
+[
+  {
+    "source": "^I start the automation$",
+    "steps": [
+      {
+        "name": "I start the automation",
+        "aggregatedDurations": {
+          "average": 0.320749205,
+          "median": 0.320749205
+        },
+        "durations": [
+          {
+            "duration": 0.320749205,
+            "location": "ChromeBrowserTest.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I executing the hookclass$",
+    "steps": [
+      {
+        "name": "I executing the hookclass",
+        "aggregatedDurations": {
+          "average": 0.00011886,
+          "median": 0.00011886
+        },
+        "durations": [
+          {
+            "duration": 0.00011886,
+            "location": "ChromeBrowserTest.feature:8"
+          }
+        ]
+      }
+    ]
+  }
+]

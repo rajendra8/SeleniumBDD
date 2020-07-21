@@ -1,0 +1,114 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 320749205,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I start the automation",
+            "match": {
+              "location": "Login.iStartTheAutomation()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118860,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I executing the hookclass",
+            "match": {
+              "location": "Login.iExecutingTheHookclass()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5373203,
+              "error_message": "java.lang.NullPointerException\n\tat com.StepDefination.GeneralStep.iWaitForMinites(GeneralStep.java:27)\n\tat ✽.Then I wait for 20 seconds(ChromeBrowserTest.feature:9)\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I wait for 20 seconds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20",
+                  "offset": 11
+                }
+              ],
+              "location": "GeneralStep.iWaitForMinites(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 513945,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforegetUrl(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "cleartrip",
+        "description": "",
+        "id": "doing-browsertesting;cleartrip",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I open the \"https://www.cleartrip.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.cleartrip.com/",
+                  "offset": 12
+                }
+              ],
+              "location": "BrowserStep.openBrowser(String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@cleartrip"
+          }
+        ]
+      }
+    ],
+    "name": "Doing BrowserTesting",
+    "description": "",
+    "id": "doing-browsertesting",
+    "keyword": "Feature",
+    "uri": "ChromeBrowserTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@BeforeGetUrl"
+      }
+    ]
+  }
+]
